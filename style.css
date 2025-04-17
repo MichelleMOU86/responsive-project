@@ -6,7 +6,6 @@
 
 body {
   margin: 60px auto;
-  max-width: 800px;
 }
 
 h1,
@@ -100,4 +99,19 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 74px;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .index-links {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
